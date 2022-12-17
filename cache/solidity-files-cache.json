@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/coreysmith/Sites/bug-reports/hardhat-sorting-issue/contracts/Test.sol": {
+      "lastModificationDate": 1671283408646,
+      "contentHash": "147c0577f826cca6c4b2398bf62a44cb",
+      "sourceName": "contracts/Test.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./lib/TestImport.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Test"
+      ]
+    },
+    "/Users/coreysmith/Sites/bug-reports/hardhat-sorting-issue/contracts/lib/TestImport.sol": {
+      "lastModificationDate": 1671283374241,
+      "contentHash": "3bbd70a1b84c470b01b46591db07e2f7",
+      "sourceName": "contracts/lib/TestImport.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestImport"
+      ]
+    }
+  }
+}
